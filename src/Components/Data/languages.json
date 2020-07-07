@@ -1,0 +1,32 @@
+[
+    {
+        "id": 1,
+        "title": "The Browser",
+        "languages": "HTML, CSS,JQuery,Bootstrap"
+    },
+    {
+        "id": 1,
+        "title": "API",
+        "languages": "API, JSON,AJAX"
+    },
+    {
+        "id": 1,
+        "title": "Dev Tools",
+        "languages": "Heroku, Git, GitHub"
+    },
+    {
+        "id": 1,
+        "title": "Server Side",
+        "languages": "Templating Engines, Node.js, Express.js, Creating API's, MVC, ORM (Sequelize)"
+    },
+    {
+        "id": 1,
+        "title": "Databases",
+        "languages": "MySQL, MongoDB"
+    },
+    {
+        "id": 1,
+        "title": "Curring Edge",
+        "languages": "React.js"
+    }
+]

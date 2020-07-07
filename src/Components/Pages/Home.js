@@ -1,10 +1,33 @@
-import React from 'react'
+import React, { useEffect, useState } from "react";
+import Jumbotron from "../Layout/Jumbotron";
+import HomeBody from "../Layout//homeBody";
+import Languages from "../Data/languages.json";
 
 export default function Home() {
-    return (
-        <div>
-            <h1>Home Page</h1>
-            <p>Hodor. Hodor hodor, hodor. Hodor hodor hodor hodor hodor. Hodor. Hodor! Hodor hodor, hodor; hodor hodor hodor. Hodor. Hodor hodor; hodor hodor - hodor, hodor, hodor hodor. Hodor, hodor. Hodor. Hodor, hodor hodor hodor; hodor hodor; hodor hodor hodor! Hodor hodor HODOR! Hodor hodor... Hodor hodor hodor...</p>
+  const [stateLanguages, setStateLanguages] = useState([]);
+
+  useEffect(() => {
+    setStateLanguages(Languages);
+  }, []);
+
+  return (
+    <>
+      <Jumbotron />
+      <div className="container fluid">
+        <div className="row homeBody">
+          <div className="col-lg-4">
+            {stateLanguages.map((stateLanguages) => {
+              return (
+                <HomeBody
+                  key={stateLanguages.key}
+                  title={stateLanguages.title}
+                  languages={stateLanguages.languages}
+                />
+              );
+            })}
+          </div>
         </div>
-    )
+      </div>
+    </>
+  );
 }

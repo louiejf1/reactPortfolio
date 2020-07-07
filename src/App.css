@@ -1,38 +1,84 @@
-.App {
+body {
+  margin: 0;
+  font-family: "Lato", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  color: #212529;
+}
+
+.JumboContainer {
+  background-image: url(./Images/apple-coffee-computer-desk-white.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 90vh;
+}
+
+.jumbotron {
+  color: #114B5F;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
+.JumboHeadlines {
+  color: #114B5F;
+  padding-top: 4em;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+}
+
+.JumboH1 {
+  font-size: 4.5em;
+}
+
+.JumboH2 {
+  font-size: 2.5em;
+}
+
+.mainDiv {
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.MyNavBar {
+  background-color: #114B5F;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.about-container {
+  align-items: center;
+  text-align: center;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.about-top {
+  padding: 50px;
+}
+
+.about-card {
+  height: 300px;
+  align-items: center;
+}
+
+.card-img-top {
+  width: 128px;
+  align-items: center;
+}
+
+.about-avatar {
+  width: 128px;
+  align-items: center;
+}
+
+a {
+  color: #96b4be;
+  text-decoration: none;
+}
+
+.about-a {
+  color: #114B5F;
+  text-decoration: none;
+}
+
+.homeP {
+  color: rgb(0, 0, 0);
+}
+
+.homeBody {
+  align-items: top;
+  text-align: center;
 }
