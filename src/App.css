@@ -82,3 +82,7 @@ a {
   align-items: top;
   text-align: center;
 }
+
+.projectsButton {
+  margin: 10px;
+}

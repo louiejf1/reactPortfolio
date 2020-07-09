@@ -3,7 +3,7 @@ import React from "react";
 export default function NavBar() {
   return (
     <nav className="navbar navbar-expand-lg MyNavBar ">
-      <a className="navbar-brand" href="#">
+      <a className="navbar-brand" href="/">
         Ludwig Flores
       </a>
       <button

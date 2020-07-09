@@ -25,89 +25,90 @@ export default function Projetcs() {
               </div>
             </div>
           </div>
-
-          <div className="row">
-            <div className="col-sm">
-              <div className="card about-card">
-                {/* links */}
-                <img
-                  src="https://cdn0.iconfinder.com/data/icons/social-flat-rounded-rects/512/html5-32.png"
-                  className="mr-3 "
-                  alt="..."
-                />
-                <img
-                  src="https://cdn4.iconfinder.com/data/icons/logos-and-brands/512/233_Node_Js_logo-32.png"
-                  className="mr-3 "
-                  alt="..."
-                />
-                <img
-                  src="https://cdn2.iconfinder.com/data/icons/designer-skills/128/react-32.png"
-                  className="mr-3 "
-                  alt="..."
-                />
-                {/* links */}
-                <div className="card-body">
-                  <h5 className="card-title">Front End</h5>
-                  <p className="card-text">
-                    HTML, CSS, JavaScript, JQuery, Bootstrap.
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div className="col-sm">
-              <div className="card about-card">
-                {/* links */}
-                <img
-                  src="https://cdn0.iconfinder.com/data/icons/social-flat-rounded-rects/512/html5-32.png"
-                  className="mr-3 "
-                  alt="..."
-                />
-                <img
-                  src="https://cdn4.iconfinder.com/data/icons/logos-and-brands/512/233_Node_Js_logo-32.png"
-                  className="mr-3 "
-                  alt="..."
-                />
-                <img
-                  src="https://cdn2.iconfinder.com/data/icons/designer-skills/128/react-32.png"
-                  className="mr-3 "
-                  alt="..."
-                />
-                {/* links */}
-                <div className="card-body">
-                  <h5 className="card-title">Back End</h5>
-                  <p className="card-text">
-                    Node.js, Express.js, MVC, ORM (Sequelize), Creating API's,
-                    Mongo, MySQL, JSON, AJAX
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div className="col-sm">
-              <div className="card about-card">
-                {/* links */}
-                <img
-                  src="https://cdn0.iconfinder.com/data/icons/social-flat-rounded-rects/512/html5-32.png"
-                  className="mr-3 "
-                  alt="..."
-                />
-                <img
-                  src="https://cdn4.iconfinder.com/data/icons/logos-and-brands/512/233_Node_Js_logo-32.png"
-                  className="mr-3 "
-                  alt="..."
-                />
-                <img
-                  src="https://cdn2.iconfinder.com/data/icons/designer-skills/128/react-32.png"
-                  className="mr-3 "
-                  alt="..."
-                />
-                {/* links */}
-                <div className="card-body">
-                  <h5 className="card-title">Dev Tools</h5>
-                  <p className="card-text">Heroku, Git, HitHub, React</p>
-                </div>
-              </div>
+          {/* media */}
+          {/* 1 */}
+          <div class="card">
+            <h5 class="card-header">Featured</h5>
+            <div class="card-body">
+              <h5 class="card-title">Covid-19 Tracker</h5>
+              <p class="card-text">
+                Description: Covid-19 tracker is an application designed to
+                track the progress of the pandemic, by Country, historical
+                progress heat map, and latest news related the pandemic.
+                <p />
+                <p>
+                  Technologies: Covid-19 tracker uses HTML, SCC, Bootstrap,
+                  Various Public API’s to Covid-19 data and News articles, as
+                  well as Covid-19 spread history in the form of a Heat map.
+                </p>
+              </p>
+              <a
+                href="https://louiejf1.github.io/Project1.github.io/"
+                class="btn btn-primary projectsButton"
+              >
+                Project Link
+              </a>
+              <a
+                href="https://github.com/louiejf1/Project1.github.io"
+                class="btn btn-primary projectsButton"
+              >
+                GitHub
+              </a>
             </div>
           </div>
+          {/* 2 */}
+          <div class="card">
+            <h5 class="card-header">Featured</h5>
+            <div class="card-body">
+              <h5 class="card-title">Code Hunters</h5>
+              <p class="card-text">
+                Description: Code Hunters is an coding specific job search
+                engine, that connect freelance or coders looking for work with
+                Employer who are looking for codes based on experience, codding
+                languages and location
+              </p>
+              <p class="card-text">
+                Technologies: Node, Express, MySQL, Handlebars, MVC, HTML,
+                Matarialize, CSS, and deployed on Heroku
+              </p>
+              <a
+                href="https://calm-falls-17449.herokuapp.com/"
+                class="btn btn-primary projectsButton"
+              >
+                Project Link
+              </a>
+              <a
+                href="https://github.com/louiejf1/Project2"
+                class="btn btn-primary projectsButton"
+              >
+                GitHub
+              </a>
+            </div>
+          </div>
+          {/* 3 */}
+          <div class="card">
+            <h5 class="card-header">Featured</h5>
+            <div class="card-body">
+              <h5 class="card-title">Weather Dashboard</h5>
+              <p class="card-text">
+                Description: Weather Dashboard is an app to see the weather
+                outlook for multiple cities so, the user can plan their day,
+                clothing, schedule accordingly.
+              </p>
+              <p class="card-text">
+                Technologies: Use the OpenWeather API to retrieve weather data
+                for cities. Build a weather dashboard that will run in the
+                browser and feature dynamically updated HTML and CSS.
+              </p>
+              <a href="https://louiejf1.github.io/Weather-Dashboard.io/" class="btn btn-primary projectsButton">
+              Project Link
+              </a>
+              <a href="https://github.com/louiejf1/Weather-Dashboard.io" class="btn btn-primary projectsButton">
+              GitHub
+              </a>
+            </div>
+          </div>
+          {/* media */}
         </div>
       </div>
     </div>
